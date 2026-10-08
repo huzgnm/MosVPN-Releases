@@ -6,7 +6,9 @@
 ### Phát hành lần đầu
 - Android (`.apk` — arm64-v8a, armeabi-v7a, x86_64).
 - macOS (`.dmg` — universal Apple Silicon + Intel, macOS 12+).
+- Windows x64 (bộ cài `.exe`).
 - Linux `.deb` cho amd64 và arm64.
+- iOS qua TestFlight.
 - Hỗ trợ VMess, VLESS, Trojan, Shadowsocks, WireGuard, Hysteria qua xray-core.
 - Chế độ System Proxy và TUN.
 

@@ -1,30 +1,29 @@
 <div align="center">
 
-<img src="https://mosvpn.com/favicon.ico" width="88" alt="MosVPN logo" />
-
 <h1>MosVPN</h1>
 
 <h3>Ứng dụng VPN nhanh, bảo mật, đa nền tảng</h3>
 
-<p><strong>Một chạm để kết nối. Chạy trên lõi Xray-core — Android, macOS và Linux.</strong></p>
+<p><strong>Một chạm để kết nối. Chạy trên lõi Xray-core — iOS, Android, macOS, Windows và Linux.</strong></p>
 
 <p><a href="README.md">English</a> · <strong>Tiếng Việt</strong></p>
 
 <p>
   <a href="https://github.com/huzgnm/MosVPN-Releases/releases/latest"><img alt="Phiên bản mới nhất" src="https://img.shields.io/github/v/release/huzgnm/MosVPN-Releases?style=flat-square&label=release&color=d32f2f" /></a>
   <a href="https://github.com/huzgnm/MosVPN-Releases/releases"><img alt="Lượt tải" src="https://img.shields.io/github/downloads/huzgnm/MosVPN-Releases/total?style=flat-square&label=downloads&color=22c55e" /></a>
-  <img alt="Nền tảng" src="https://img.shields.io/badge/platforms-Android%20%7C%20macOS%20%7C%20Linux-6366f1?style=flat-square" />
+  <img alt="Nền tảng" src="https://img.shields.io/badge/platforms-Android%20%7C%20iOS%20%7C%20macOS%20%7C%20Windows%20%7C%20Linux-6366f1?style=flat-square" />
   <img alt="Lõi" src="https://img.shields.io/badge/core-Xray--core-0ea5e9?style=flat-square" />
   <img alt="Giấy phép" src="https://img.shields.io/badge/license-Proprietary-red?style=flat-square" />
   <img alt="Mã nguồn" src="https://img.shields.io/badge/source-Closed--Source-lightgrey?style=flat-square" />
 </p>
 
 <p>
+  <a href="https://testflight.apple.com/join/tsCY2wHt"><img alt="TestFlight" src="https://img.shields.io/badge/TestFlight-iOS-0D96F6?style=flat-square&logo=apple&logoColor=white" /></a>
   <a href="https://mosvpn.com"><img alt="Website" src="https://img.shields.io/badge/Website-mosvpn.com-d32f2f?style=flat-square&logo=googlechrome&logoColor=white" /></a>
   <a href="https://github.com/huzgnm/MosVPN-Releases/issues"><img alt="Hỗ trợ" src="https://img.shields.io/badge/H%E1%BB%97_tr%E1%BB%A3-Issue_Tracker-414141?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
-<sub>Android · macOS · Linux — một ứng dụng, một tài khoản, mọi thiết bị.</sub>
+<sub>iOS · Android · macOS · Windows · Linux — một ứng dụng, một tài khoản, mọi thiết bị.</sub>
 
 </div>
 
@@ -35,11 +34,21 @@
 **MosVPN** là ứng dụng VPN chính thức của [mosvpn.com](https://mosvpn.com). Xây dựng trên **Xray-core**, MosVPN đưa các giao thức hiện đại, chống chặn vào một giao diện một chạm đơn giản, hỗ trợ cả chế độ **System Proxy** và **TUN** (toàn bộ thiết bị).
 
 > **Repo này chỉ chứa BẢN PHÁT HÀNH và TRANG BÁO LỖI.**
-> Tại đây cung cấp file cài đặt (APK, DMG, DEB) và nơi báo lỗi công khai cho MosVPN. **Mã nguồn ứng dụng là riêng tư** và **không** được công bố ở đây.
+> Tại đây cung cấp file cài đặt (APK, DMG, EXE, DEB) và nơi báo lỗi công khai cho MosVPN. **Mã nguồn ứng dụng là riêng tư** và **không** được công bố ở đây.
 
 ---
 
 ## Tải về
+
+### iOS — TestFlight
+
+| Nền tảng | Cài đặt |
+| :-- | :-- |
+| **iOS / iPadOS** | [Tham gia TestFlight](https://testflight.apple.com/join/tsCY2wHt) |
+
+> Cài ứng dụng **TestFlight** từ App Store trước, sau đó mở link trên bằng iPhone / iPad.
+
+### Tải trực tiếp — GitHub Releases
 
 Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**. Các link dưới đây luôn trỏ tới bản **ổn định** mới nhất:
 
@@ -47,6 +56,7 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 | :-- | :-- | :-- | :-- |
 | **Android** | `.apk` | universal (arm64-v8a · armeabi-v7a · x86_64) | [MosVPN-android.apk](https://github.com/huzgnm/MosVPN-Releases/releases/latest/download/MosVPN-android.apk) |
 | **macOS** | `.dmg` | universal (Apple Silicon + Intel) | [MosVPN-macos.dmg](https://github.com/huzgnm/MosVPN-Releases/releases/latest/download/MosVPN-macos.dmg) |
+| **Windows** | `.exe` | x64 | [MosVPN-windows-x64.exe](https://github.com/huzgnm/MosVPN-Releases/releases/latest/download/MosVPN-windows-x64.exe) |
 | **Linux** | `.deb` | x86_64 | [MosVPN-linux-amd64.deb](https://github.com/huzgnm/MosVPN-Releases/releases/latest/download/MosVPN-linux-amd64.deb) |
 | **Linux** | `.deb` | ARM64 | [MosVPN-linux-arm64.deb](https://github.com/huzgnm/MosVPN-Releases/releases/latest/download/MosVPN-linux-arm64.deb) |
 
@@ -58,7 +68,7 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 
 - **Một chạm là kết nối.** Đăng nhập rồi bấm kết nối — không cần cấu hình thủ công.
 - **Giao thức hiện đại.** Lõi Xray-core với các giao thức vẫn hoạt động tốt trên mạng bị hạn chế.
-- **Đa nền tảng.** Trải nghiệm như nhau trên Android, macOS và Linux.
+- **Đa nền tảng.** Trải nghiệm như nhau trên iOS, Android, macOS, Windows và Linux.
 - **Hai chế độ kết nối.** System Proxy nhẹ nhàng, hoặc TUN để định tuyến toàn bộ thiết bị.
 
 ---
@@ -68,7 +78,7 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 - **Lõi Xray-core** — ổn định, hiệu năng cao.
 - **Chế độ System Proxy** — áp dụng cho các ứng dụng dùng cấu hình proxy hệ thống.
 - **Chế độ TUN (XrayTun)** — đưa toàn bộ lưu lượng thiết bị qua card mạng ảo.
-- **Bản build gốc** — macOS universal (Apple Silicon + Intel), Linux ARM64 và x86_64.
+- **Bản build gốc** — macOS universal (Apple Silicon + Intel), bộ cài Windows x64, Linux ARM64 và x86_64.
 
 ---
 
@@ -88,8 +98,8 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 | Android | ✅ | — | APK trực tiếp (Releases) |
 | macOS | ✅ | macOS 12 Monterey | DMG trực tiếp (Releases) |
 | Linux | ✅ | Ubuntu 22.04 / Debian 12 | DEB trực tiếp (Releases) |
-| Windows | 🔜 | — | Sắp ra mắt |
-| iOS | 🔜 | — | Sắp ra mắt |
+| Windows | ✅ | Windows 10 / 11 (x64) | Bộ cài EXE trực tiếp (Releases) |
+| iOS / iPadOS | ✅ | — | [TestFlight](https://testflight.apple.com/join/tsCY2wHt) |
 
 ---
 
@@ -100,10 +110,20 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 2. Mở file, cho phép **Cài ứng dụng không rõ nguồn gốc** khi được hỏi.
 3. Mở MosVPN, cấp quyền VPN và bấm **Kết nối**.
 
+### iOS / iPadOS
+1. Cài ứng dụng **TestFlight** từ App Store.
+2. Mở [link mời TestFlight](https://testflight.apple.com/join/tsCY2wHt) trên máy, bấm **Chấp nhận → Cài đặt**.
+3. Mở MosVPN, cho phép thêm cấu hình VPN rồi kết nối.
+
 ### macOS
 1. Tải **`MosVPN-macos.dmg`**, mở ra và kéo **MosVPN** vào **Applications**.
 2. Nếu macOS chặn lần mở đầu: **Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Vẫn mở**.
 3. Đồng ý yêu cầu cấu hình mạng / VPN rồi kết nối.
+
+### Windows
+1. Tải **`MosVPN-windows-x64.exe`** tại [trang Releases](https://github.com/huzgnm/MosVPN-Releases/releases/latest).
+2. Chạy bộ cài. Nếu SmartScreen hiện cảnh báo: **Thông tin thêm → Vẫn chạy**.
+3. Mở MosVPN (chạy quyền Administrator để dùng chế độ TUN) và kết nối.
 
 ### Linux (Ubuntu / Debian)
 ```bash
@@ -120,6 +140,7 @@ Chế độ TUN cần quyền quản trị (hỏi qua `pkexec`). Gỡ cài đặ
 ### Kiểm tra checksum
 ```bash
 shasum -a 256 MosVPN-*        # macOS
+Get-FileHash .\MosVPN-windows-x64.exe   # Windows (PowerShell)
 sha256sum -c SHA256SUMS.txt   # Linux
 ```
 
@@ -152,7 +173,7 @@ MosVPN được cung cấp **"nguyên trạng", không kèm bất kỳ bảo đ�
 
 **MosVPN — Ứng dụng VPN nhanh, bảo mật, đa nền tảng**
 
-[Website](https://mosvpn.com) · [Releases](https://github.com/huzgnm/MosVPN-Releases/releases) · [Lịch sử thay đổi](CHANGELOG.md) · [Báo lỗi](https://github.com/huzgnm/MosVPN-Releases/issues)
+[TestFlight](https://testflight.apple.com/join/tsCY2wHt) · [Website](https://mosvpn.com) · [Releases](https://github.com/huzgnm/MosVPN-Releases/releases) · [Lịch sử thay đổi](CHANGELOG.md) · [Báo lỗi](https://github.com/huzgnm/MosVPN-Releases/issues)
 
 <sub>© 2026 MosVPN · Bảo lưu mọi quyền.</sub>
 

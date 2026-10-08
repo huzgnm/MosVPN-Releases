@@ -5,7 +5,7 @@
 #   scripts/release.sh 1.0.1 "/Volumes/UGREEN/app mosvpn"
 #
 # Thư mục build cần có (thiếu file nào thì bỏ qua file đó):
-#   mosvpn.apk  mosvpn.dmg  MosVPN.deb (amd64)  MosVPN_arm64.deb
+#   mosvpn.apk  mosvpn.dmg  mosvpn.exe  MosVPN.deb (amd64)  MosVPN_arm64.deb
 #
 # Ghi chú phát hành lấy từ mục [VERSION] trong CHANGELOG.md — viết CHANGELOG trước rồi chạy.
 set -euo pipefail
@@ -25,6 +25,7 @@ gh release view "$TAG" -R "$REPO" >/dev/null 2>&1 && { echo "Release $TAG đã t
 declare -a MAP=(
   "mosvpn.apk:MosVPN-android.apk"
   "mosvpn.dmg:MosVPN-macos.dmg"
+  "mosvpn.exe:MosVPN-windows-x64.exe"
   "MosVPN.deb:MosVPN-linux-amd64.deb"
   "MosVPN_arm64.deb:MosVPN-linux-arm64.deb"
 )
@@ -60,8 +61,11 @@ cat >> "$NOTES" <<NOTES_EOF
 |---|---|
 | Android | \`MosVPN-android.apk\` |
 | macOS | \`MosVPN-macos.dmg\` |
+| Windows x64 | \`MosVPN-windows-x64.exe\` |
 | Linux x86_64 | \`MosVPN-linux-amd64.deb\` |
 | Linux ARM64 | \`MosVPN-linux-arm64.deb\` |
+
+iOS: [TestFlight](https://testflight.apple.com/join/tsCY2wHt)
 
 SHA-256: xem \`SHA256SUMS.txt\`.
 NOTES_EOF

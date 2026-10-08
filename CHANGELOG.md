@@ -5,7 +5,7 @@
 ## [1.0.0] - 2026-10-09
 ### Phát hành lần đầu
 - Android (`.apk` — arm64-v8a, armeabi-v7a, x86_64).
-- macOS (`.dmg`).
+- macOS (`.dmg` — universal Apple Silicon + Intel, macOS 12+).
 - Linux `.deb` cho amd64 và arm64.
 - Hỗ trợ VMess, VLESS, Trojan, Shadowsocks, WireGuard, Hysteria qua xray-core.
 - Chế độ System Proxy và TUN.

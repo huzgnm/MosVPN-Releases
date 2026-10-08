@@ -10,7 +10,7 @@
 
 <p>
   <a href="https://github.com/huzgnm/MosVPN-Releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/huzgnm/MosVPN-Releases?style=flat-square&label=release&color=d32f2f" /></a>
-  <a href="https://github.com/huzgnm/MosVPN-Releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/huzgnm/MosVPN-Releases/total?style=flat-square&label=downloads&color=22c55e" /></a>
+  <!--   <a href="https://github.com/huzgnm/MosVPN-Releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/huzgnm/MosVPN-Releases/total?style=flat-square&label=downloads&color=22c55e" /></a> -->
   <img alt="Platforms" src="https://img.shields.io/badge/platforms-Android%20%7C%20iOS%20%7C%20macOS%20%7C%20Windows%20%7C%20Linux-6366f1?style=flat-square" />
   <img alt="Core" src="https://img.shields.io/badge/core-Xray--core-0ea5e9?style=flat-square" />
   <img alt="License" src="https://img.shields.io/badge/license-Proprietary-red?style=flat-square" />

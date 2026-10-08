@@ -20,10 +20,13 @@
 <p>
   <a href="https://testflight.apple.com/join/tsCY2wHt"><img alt="TestFlight" src="https://img.shields.io/badge/TestFlight-iOS-0D96F6?style=flat-square&logo=apple&logoColor=white" /></a>
   <a href="https://mosvpn.com"><img alt="Website" src="https://img.shields.io/badge/Website-mosvpn.com-d32f2f?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://t.me/mosvpnru"><img alt="Telegram Support" src="https://img.shields.io/badge/Telegram-Support-229ED9?style=flat-square&logo=telegram&logoColor=white" /></a>
+  <a href="https://t.me/russianmosvpn"><img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-Channel-229ED9?style=flat-square&logo=telegram&logoColor=white" /></a>
+  <a href="https://zalo.me/2364153856887114216"><img alt="Zalo" src="https://img.shields.io/badge/Zalo-Support-0068FF?style=flat-square&logo=zalo&logoColor=white" /></a>
   <a href="https://github.com/huzgnm/MosVPN-Releases/issues"><img alt="Hỗ trợ" src="https://img.shields.io/badge/H%E1%BB%97_tr%E1%BB%A3-Issue_Tracker-414141?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
-<sub>iOS · Android · macOS · Windows · Linux — một ứng dụng, một tài khoản, mọi thiết bị.</sub>
+<sub>iOS · Android · macOS · Windows · Linux — một ứng dụng, mọi thiết bị.</sub>
 
 </div>
 
@@ -66,7 +69,7 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 
 ## Vì sao chọn MosVPN
 
-- **Một chạm là kết nối.** Đăng nhập rồi bấm kết nối — không cần cấu hình thủ công.
+- **Một chạm là kết nối.** Không cần cấu hình thủ công.
 - **Giao thức hiện đại.** Lõi Xray-core với các giao thức vẫn hoạt động tốt trên mạng bị hạn chế.
 - **Đa nền tảng.** Trải nghiệm như nhau trên iOS, Android, macOS, Windows và Linux.
 - **Hai chế độ kết nối.** System Proxy nhẹ nhàng, hoặc TUN để định tuyến toàn bộ thiết bị.
@@ -96,10 +99,10 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 | Nền tảng | Hỗ trợ | Tối thiểu | Phân phối |
 |----------|:------:|-----------|-----------|
 | Android | ✅ | — | APK trực tiếp (Releases) |
-| macOS | ✅ | macOS 12 Monterey | DMG trực tiếp (Releases) |
-| Linux | ✅ | Ubuntu 22.04 / Debian 12 | DEB trực tiếp (Releases) |
-| Windows | ✅ | Windows 10 / 11 (x64) · quyền Administrator | Bộ cài EXE trực tiếp (Releases) |
 | iOS / iPadOS | ✅ | — | [TestFlight](https://testflight.apple.com/join/tsCY2wHt) |
+| macOS | ✅ | macOS 12 Monterey | DMG trực tiếp (Releases) |
+| Windows | ✅ | Windows 10 / 11 (x64) · quyền Administrator | Bộ cài EXE trực tiếp (Releases) |
+| Linux | ✅ | Ubuntu 22.04 / Debian 12 | DEB trực tiếp (Releases) |
 
 ---
 
@@ -138,16 +141,26 @@ sudo apt install ./MosVPN-linux-arm64.deb
 Chế độ TUN cần quyền quản trị (hỏi qua `pkexec`). Gỡ cài đặt: `sudo apt remove mosvpn`.
 
 ### Kiểm tra checksum
+**macOS**
 ```bash
-shasum -a 256 MosVPN-*        # macOS
-Get-FileHash .\MosVPN-windows-x64.exe   # Windows (PowerShell)
-sha256sum -c SHA256SUMS.txt   # Linux
+shasum -a 256 MosVPN-macos.dmg
+```
+**Windows (PowerShell)**
+```powershell
+Get-FileHash .\MosVPN-windows-x64.exe -Algorithm SHA256
+```
+**Linux**
+```bash
+sha256sum -c SHA256SUMS.txt --ignore-missing
 ```
 
 ---
 
 ## Hỗ trợ
 
+- **Telegram hỗ trợ:** [@mosvpnru](https://t.me/mosvpnru)
+- **Kênh Telegram (thông báo):** [@russianmosvpn](https://t.me/russianmosvpn)
+- **Zalo:** [MosVPN Hỗ trợ](https://zalo.me/2364153856887114216)
 - **Website & bảng giá:** [mosvpn.com](https://mosvpn.com)
 - **Báo lỗi & góp ý tính năng:** mở issue tại [trang báo lỗi](https://github.com/huzgnm/MosVPN-Releases/issues/new/choose).
 
@@ -173,7 +186,7 @@ MosVPN được cung cấp **"nguyên trạng", không kèm bất kỳ bảo đ�
 
 **MosVPN — Ứng dụng VPN nhanh, bảo mật, đa nền tảng**
 
-[TestFlight](https://testflight.apple.com/join/tsCY2wHt) · [Website](https://mosvpn.com) · [Releases](https://github.com/huzgnm/MosVPN-Releases/releases) · [Lịch sử thay đổi](CHANGELOG.md) · [Báo lỗi](https://github.com/huzgnm/MosVPN-Releases/issues)
+[TestFlight](https://testflight.apple.com/join/tsCY2wHt) · [Website](https://mosvpn.com) · [Telegram](https://t.me/mosvpnru) · [Kênh](https://t.me/russianmosvpn) · [Zalo](https://zalo.me/2364153856887114216) · [Releases](https://github.com/huzgnm/MosVPN-Releases/releases) · [Lịch sử thay đổi](CHANGELOG.md) · [Báo lỗi](https://github.com/huzgnm/MosVPN-Releases/issues)
 
 <sub>© 2026 MosVPN · Bảo lưu mọi quyền.</sub>
 

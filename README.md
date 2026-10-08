@@ -20,10 +20,13 @@
 <p>
   <a href="https://testflight.apple.com/join/tsCY2wHt"><img alt="TestFlight" src="https://img.shields.io/badge/TestFlight-iOS-0D96F6?style=flat-square&logo=apple&logoColor=white" /></a>
   <a href="https://mosvpn.com"><img alt="Website" src="https://img.shields.io/badge/Website-mosvpn.com-d32f2f?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://t.me/mosvpnru"><img alt="Telegram Support" src="https://img.shields.io/badge/Telegram-Support-229ED9?style=flat-square&logo=telegram&logoColor=white" /></a>
+  <a href="https://t.me/russianmosvpn"><img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-Channel-229ED9?style=flat-square&logo=telegram&logoColor=white" /></a>
+  <a href="https://zalo.me/2364153856887114216"><img alt="Zalo" src="https://img.shields.io/badge/Zalo-Support-0068FF?style=flat-square&logo=zalo&logoColor=white" /></a>
   <a href="https://github.com/huzgnm/MosVPN-Releases/issues"><img alt="Issues" src="https://img.shields.io/badge/Support-Issue_Tracker-414141?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
-<sub>iOS · Android · macOS · Windows · Linux — one app, one account, everywhere.</sub>
+<sub>iOS · Android · macOS · Windows · Linux — one app, every device.</sub>
 
 </div>
 
@@ -66,7 +69,7 @@ All binaries follow the naming convention **`MosVPN-<platform>[-<arch>].<ext>`**
 
 ## Why MosVPN
 
-- **One tap to connect.** Sign in and connect — no manual configuration needed.
+- **One tap to connect.** No manual configuration needed.
 - **Modern protocols.** Powered by Xray-core with the protocols that keep working on restricted networks.
 - **Cross-platform.** The same experience on iOS, Android, macOS, Windows and Linux.
 - **Two connection modes.** Lightweight System Proxy, or TUN mode to route the entire device.
@@ -96,10 +99,10 @@ All binaries follow the naming convention **`MosVPN-<platform>[-<arch>].<ext>`**
 | Platform | Supported | Minimum | Distribution |
 |----------|:---------:|---------|--------------|
 | Android | ✅ | — | Direct APK (Releases) |
-| macOS | ✅ | macOS 12 Monterey | Direct DMG (Releases) |
-| Linux | ✅ | Ubuntu 22.04 / Debian 12 | Direct DEB (Releases) |
-| Windows | ✅ | Windows 10 / 11 (x64) · admin rights | Direct EXE installer (Releases) |
 | iOS / iPadOS | ✅ | — | [TestFlight](https://testflight.apple.com/join/tsCY2wHt) |
+| macOS | ✅ | macOS 12 Monterey | Direct DMG (Releases) |
+| Windows | ✅ | Windows 10 / 11 (x64) · admin rights | Direct EXE installer (Releases) |
+| Linux | ✅ | Ubuntu 22.04 / Debian 12 | Direct DEB (Releases) |
 
 ---
 
@@ -138,16 +141,26 @@ sudo apt install ./MosVPN-linux-arm64.deb
 TUN mode requires elevated privileges (prompted via `pkexec`). Uninstall with `sudo apt remove mosvpn`.
 
 ### Verify checksums
+**macOS**
 ```bash
-shasum -a 256 MosVPN-*        # macOS
-Get-FileHash .\MosVPN-windows-x64.exe   # Windows (PowerShell)
-sha256sum -c SHA256SUMS.txt   # Linux
+shasum -a 256 MosVPN-macos.dmg
+```
+**Windows (PowerShell)**
+```powershell
+Get-FileHash .\MosVPN-windows-x64.exe -Algorithm SHA256
+```
+**Linux**
+```bash
+sha256sum -c SHA256SUMS.txt --ignore-missing
 ```
 
 ---
 
 ## Community & Support
 
+- **Telegram Support:** [@mosvpnru](https://t.me/mosvpnru)
+- **Telegram Channel (announcements):** [@russianmosvpn](https://t.me/russianmosvpn)
+- **Zalo:** [MosVPN Support](https://zalo.me/2364153856887114216)
 - **Website & plans:** [mosvpn.com](https://mosvpn.com)
 - **Bug reports & feature requests:** open an issue on this repository's [issue tracker](https://github.com/huzgnm/MosVPN-Releases/issues/new/choose).
 
@@ -173,7 +186,7 @@ MosVPN is provided **"as is," without warranty of any kind**. You are solely res
 
 **MosVPN — Fast, Secure &amp; Cross-Platform VPN Client**
 
-[TestFlight](https://testflight.apple.com/join/tsCY2wHt) · [Website](https://mosvpn.com) · [Releases](https://github.com/huzgnm/MosVPN-Releases/releases) · [Changelog](CHANGELOG.md) · [Issues](https://github.com/huzgnm/MosVPN-Releases/issues)
+[TestFlight](https://testflight.apple.com/join/tsCY2wHt) · [Website](https://mosvpn.com) · [Telegram](https://t.me/mosvpnru) · [Channel](https://t.me/russianmosvpn) · [Zalo](https://zalo.me/2364153856887114216) · [Releases](https://github.com/huzgnm/MosVPN-Releases/releases) · [Changelog](CHANGELOG.md) · [Issues](https://github.com/huzgnm/MosVPN-Releases/issues)
 
 <sub>© 2026 MosVPN · All rights reserved.</sub>
 

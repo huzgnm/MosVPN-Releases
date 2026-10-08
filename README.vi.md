@@ -98,7 +98,7 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 | Android | ✅ | — | APK trực tiếp (Releases) |
 | macOS | ✅ | macOS 12 Monterey | DMG trực tiếp (Releases) |
 | Linux | ✅ | Ubuntu 22.04 / Debian 12 | DEB trực tiếp (Releases) |
-| Windows | ✅ | Windows 10 / 11 (x64) | Bộ cài EXE trực tiếp (Releases) |
+| Windows | ✅ | Windows 10 / 11 (x64) · quyền Administrator | Bộ cài EXE trực tiếp (Releases) |
 | iOS / iPadOS | ✅ | — | [TestFlight](https://testflight.apple.com/join/tsCY2wHt) |
 
 ---
@@ -123,7 +123,7 @@ Tên file theo quy ước **`MosVPN-<nền tảng>[-<kiến trúc>].<đuôi>`**.
 ### Windows
 1. Tải **`MosVPN-windows-x64.exe`** tại [trang Releases](https://github.com/huzgnm/MosVPN-Releases/releases/latest).
 2. Chạy bộ cài. Nếu SmartScreen hiện cảnh báo: **Thông tin thêm → Vẫn chạy**.
-3. Mở MosVPN (chạy quyền Administrator để dùng chế độ TUN) và kết nối.
+3. MosVPN **bắt buộc chạy quyền Administrator** — chuột phải → **Run as administrator** (hoặc bấm **Có** ở hộp thoại UAC), rồi kết nối.
 
 ### Linux (Ubuntu / Debian)
 ```bash

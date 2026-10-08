@@ -98,7 +98,7 @@ All binaries follow the naming convention **`MosVPN-<platform>[-<arch>].<ext>`**
 | Android | ✅ | — | Direct APK (Releases) |
 | macOS | ✅ | macOS 12 Monterey | Direct DMG (Releases) |
 | Linux | ✅ | Ubuntu 22.04 / Debian 12 | Direct DEB (Releases) |
-| Windows | ✅ | Windows 10 / 11 (x64) | Direct EXE installer (Releases) |
+| Windows | ✅ | Windows 10 / 11 (x64) · admin rights | Direct EXE installer (Releases) |
 | iOS / iPadOS | ✅ | — | [TestFlight](https://testflight.apple.com/join/tsCY2wHt) |
 
 ---
@@ -123,7 +123,7 @@ All binaries follow the naming convention **`MosVPN-<platform>[-<arch>].<ext>`**
 ### Windows
 1. Download **`MosVPN-windows-x64.exe`** from the [Releases page](https://github.com/huzgnm/MosVPN-Releases/releases/latest).
 2. Run the installer. If SmartScreen appears: **More info → Run anyway**.
-3. Launch MosVPN (run as administrator for TUN mode) and connect.
+3. MosVPN **requires administrator rights** — right-click → **Run as administrator** (or approve the UAC prompt), then connect.
 
 ### Linux (Ubuntu / Debian)
 ```bash
